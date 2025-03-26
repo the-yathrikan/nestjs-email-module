@@ -1,0 +1,32 @@
+{
+  "name": "nestjs-email-module",
+  "version": "1.0.0",
+  "description": "A plug-and-play module for handling transactional emails in NestJS using providers like SendGrid, AWS SES, or Nodemailer.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "start": "node dist/main.js",
+    "prepare": "npm run build"
+  },
+  "author": "Govind",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^11.0.12",
+    "@nestjs/config": "^4.0.1",
+    "@nestjs/core": "^11.0.12",
+    "@nestjs/platform-express": "^11.0.12",
+    "dotenv": "^16.4.7",
+    "nodemailer": "^6.10.0"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/nodemailer": "^6.4.17",
+    "typescript": "^5.8.2"
+  },
+  "files": ["dist"]
+}
