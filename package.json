@@ -1,6 +1,6 @@
 {
   "name": "nestjs-email-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plug-and-play module for handling transactional emails in NestJS using providers like SendGrid, AWS SES, or Nodemailer.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -28,5 +28,13 @@
     "@types/nodemailer": "^6.4.17",
     "typescript": "^5.8.2"
   },
-  "files": ["dist"]
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-yathrikan/nestjs-email-module.git"
+  },
+  "homepage": "https://github.com/the-yathrikan/nestjs-email-module#readme",
+  "bugs": {
+    "url": "https://github.com/the-yathrikan/nestjs-email-module/issues"
+  }
 }
