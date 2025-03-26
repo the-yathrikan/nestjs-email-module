@@ -28,10 +28,12 @@
     "@types/nodemailer": "^6.4.17",
     "typescript": "^5.8.2"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/the-yathrikan/nestjs-email-module.git"
+    "url": "git+https://github.com/the-yathrikan/nestjs-email-module.git"
   },
   "homepage": "https://github.com/the-yathrikan/nestjs-email-module#readme",
   "bugs": {
